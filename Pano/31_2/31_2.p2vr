@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig>
+  <panorama>
+    <id>node1</id>
+    <input>
+      <patch/>
+      <type>auto</type>
+      <filename>C:/Users/Кирилл/Desktop/360_2/31_20000f.jpg</filename>
+      <levelpitch>0</levelpitch>
+      <levelroll>0</levelroll>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+      <pannorth>0</pannorth>
+    </viewingparameter>
+    <userdata>
+      <datetime>2018:12:06 09:36:00</datetime>
+      <tags>360_2</tags>
+    </userdata>
+    <floorplans/>
+    <hotspots/>
+    <output>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>index.html</filename>
+          <values>
+            <value id="gginfo">false</value>
+            <value id="gyro">false</value>
+            <value id="gyrodisable">false</value>
+            <value id="gyronorth">false</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+            <value id="swf"></value>
+            <value id="swffirst">false</value>
+            <value id="swfgeneric">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition/>
+        <autorotate/>
+        <soundstransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <tilesize>1500</tilesize>
+        <filename>pano.xml</filename>
+        <windowwidth>1920</windowwidth>
+        <windowheight>1080</windowheight>
+        <quality>100</quality>
+        <fullscreencontext>1</fullscreencontext>
+      </htmlcss>
+    </output>
+    <sounds/>
+  </panorama>
+</pano2vrconfig>
